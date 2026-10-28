@@ -1,0 +1,30 @@
+/// Sukkar Plus core domain library (pure Dart).
+library;
+
+export 'src/ai/ai.dart';
+export 'src/cgm/gmi.dart';
+export 'src/cgm/metrics_calculator.dart';
+export 'src/cgm/readings_csv.dart';
+export 'src/cgm/summary_checks.dart';
+export 'src/cgm/targets.dart';
+export 'src/common/units.dart';
+export 'src/comparison/gmi_hba1c.dart';
+export 'src/comparison/trends.dart';
+export 'src/demo/demo_seed.dart';
+export 'src/demo/synthetic.dart';
+export 'src/extraction/extraction_models.dart';
+export 'src/extraction/pdf_validation.dart';
+export 'src/extraction/report_parser.dart';
+export 'src/extraction/review.dart';
+export 'src/followup/followup_workflow.dart';
+export 'src/integration/followup_notifier.dart';
+export 'src/labs/hba1c.dart';
+export 'src/models/care.dart';
+export 'src/models/cgm.dart';
+export 'src/models/enums.dart';
+export 'src/models/followup.dart';
+export 'src/models/lab.dart';
+export 'src/reminders/reminder_service.dart';
+export 'src/repository/health_repository.dart';
+export 'src/rules/rules.dart';
+export 'src/summary/visit_summary.dart';

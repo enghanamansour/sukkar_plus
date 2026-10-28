@@ -1,0 +1,37 @@
+SYNTHETIC DEMO REPORT - not a real patient
+Demo Patient
+14-Day Summary
+13/10/2026–26/10/2026 | Report Generated: 27/10/2026
+AGP Report - Developed By HealthPartners Institute d/b/a International Diabetes Center
+Time in Ranges
+Goal: <4%
+Goal: >70%
+Goal: <25%
+Glucose Metrics
+Average Glucose
+168 mg/dL
+Glucose Mgmt Indicator (GMI)
+7.3%
+Glucose Variability (CV*)
+39.5%
+*Coefficient of variation
+Standard Deviation (SD)
+66.4 mg/dL
+Device Use | Omnipod® 5 & Dexcom G7
+Connected Sensor Time 88%
+Page 1 (of 1)
+Goal: <1%
+<54 mg/dL
+1.4% Very Low
+70-180 mg/dL
+Time in Range
+Goal: <5%
+>250 mg/dL
+7% Very High
+54-69 mg/dL
+3.1% Low
+181-250 mg/dL
+23% High
+4.5% 65.5% 30%
+Goal: <7%
+Goal: ≤36%

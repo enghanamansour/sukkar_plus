@@ -1,0 +1,13 @@
+name: sukkar_core
+description: >-
+  Pure-Dart domain logic for Sukkar Plus: CGM metrics, report parsing,
+  laboratory comparison, reminders, follow-up workflow and versioned rules.
+  Contains no Flutter, network or platform code so it can be tested anywhere.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dev_dependencies:
+  test: ^1.25.0

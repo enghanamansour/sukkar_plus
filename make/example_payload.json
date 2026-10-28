@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "event_type": "followup.submitted",
+  "request_ref": "REQ-7Q2K9D",
+  "status": "awaiting_review",
+  "trigger_type": "rule",
+  "rule_ids": ["EPI54-REPEATED", "TBR54-TARGET"],
+  "rules_version": "2026.10-demo.1",
+  "submitted_at": "2026-10-28T10:00:00.000Z",
+  "environment": "demo"
+}

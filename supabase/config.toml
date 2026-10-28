@@ -1,0 +1,22 @@
+# Minimal Supabase CLI configuration for Sukkar Plus.
+# `supabase init` may regenerate a fuller file; keep these function settings.
+project_id = "sukkar-plus"
+
+[api]
+schemas = ["public"]
+
+[db]
+# Match your hosted project (Settings → Infrastructure). Migrations use standard SQL that runs on 15+.
+major_version = 17
+
+[auth]
+enable_signup = true
+
+[functions.extract-report]
+verify_jwt = true
+
+[functions.explain]
+verify_jwt = true
+
+[functions.followup-dispatch]
+verify_jwt = true

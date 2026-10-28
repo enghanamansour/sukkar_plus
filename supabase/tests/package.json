@@ -1,0 +1,16 @@
+{
+  "name": "sukkar-plus-backend-tests",
+  "version": "1.0.0",
+  "description": "SQL/RLS tests on PGlite and Edge Function module tests",
+  "scripts": {
+    "test": "node --experimental-strip-types --no-warnings --test rls.test.mjs functions.test.ts"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.13"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  }
+}
