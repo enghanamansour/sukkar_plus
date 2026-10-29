@@ -1,0 +1,10 @@
+# Supabase CLI config for Adeed. Project ref: bmoblgikggxaidntdakx
+project_id = "adeed"
+
+# Both functions verify the caller's session themselves (supabase.auth.getUser), which works with the
+# new publishable/secret keys and asymmetric JWT signing keys. Do not turn the gateway check back on.
+[functions.process-report]
+verify_jwt = false
+
+[functions.chat]
+verify_jwt = false

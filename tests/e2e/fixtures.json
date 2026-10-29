@@ -1,0 +1,1412 @@
+{
+ "uid": "11111111-aaaa-4aaa-8aaa-000000000001",
+ "reports": [
+  {
+   "id": "00000000-0000-4000-8000-000000000003",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "title": null,
+   "file_path": "11111111-aaaa-4aaa-8aaa-000000000001/00000000-0000-4000-8000-000000000003.pdf",
+   "file_name": "Demo — demo_2026-08.pdf",
+   "file_size": 0,
+   "status": "processed",
+   "error_code": null,
+   "error_message": null,
+   "report_kind": "cgm_agp",
+   "source_system": "Omnipod Discover",
+   "device": "Omnipod 5 & Dexcom G7",
+   "period_start": "2026-08-01",
+   "period_end": "2026-08-30",
+   "period_days": 30,
+   "generated_on": "2026-08-30",
+   "name_on_report": "Fatima Al-Qahtani",
+   "page_count": 8,
+   "quality": {
+    "score": "fair",
+    "checks": [
+     {
+      "key": "ranges_sum",
+      "level": "pass",
+      "params": {
+       "total": 100
+      }
+     },
+     {
+      "key": "gmi_consistency",
+      "level": "pass",
+      "params": {
+       "reported": 7.4,
+       "expected": 7.3
+      }
+     },
+     {
+      "key": "cv_consistency",
+      "level": "warn",
+      "params": {
+       "reported": 50,
+       "expected": 34.5
+      }
+     },
+     {
+      "key": "cgm_active_missing",
+      "level": "warn",
+      "params": {
+       "automated_mode": 65
+      }
+     },
+     {
+      "key": "period_length",
+      "level": "pass",
+      "params": {
+       "days": 30
+      }
+     }
+    ],
+    "target_range": {
+     "low": 70,
+     "high": 180,
+     "unit": "mg/dL"
+    }
+   },
+   "is_demo": true,
+   "created_at": "2026-10-29T12:06:33.838Z",
+   "processed_at": "2026-10-29T12:06:33.838Z",
+   "metrics": [
+    {
+     "metric_key": "tar_level2",
+     "category": "range",
+     "value": 12,
+     "value_text": "12.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Very High … 12.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tar_level1",
+     "category": "range",
+     "value": 22,
+     "value_text": "22.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "High … 22.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tir",
+     "category": "range",
+     "value": 45,
+     "value_text": "45.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Target … 45.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tbr_level1",
+     "category": "range",
+     "value": 11,
+     "value_text": "11.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Low … 11.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tbr_level2",
+     "category": "range",
+     "value": 10,
+     "value_text": "10.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Very Low … 10.0%",
+     "note": null
+    },
+    {
+     "metric_key": "mean_glucose",
+     "category": "glycemic",
+     "value": 168,
+     "value_text": "168 mg/dL",
+     "unit": "mg/dL",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Average Glucose: 168 mg/dL",
+     "note": null
+    },
+    {
+     "metric_key": "gmi",
+     "category": "glycemic",
+     "value": 7.4,
+     "value_text": "7.4%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "GMI: 7.4%",
+     "note": null
+    },
+    {
+     "metric_key": "cv",
+     "category": "variability",
+     "value": 50,
+     "value_text": "50.0%",
+     "unit": "%",
+     "status": "uncertain",
+     "source_page": 1,
+     "source_label": "Variability (CV): 50.0%",
+     "note": "The report's SD (58) ÷ average (168) gives ≈34.5%, not 50%. Check the original device report."
+    },
+    {
+     "metric_key": "sd",
+     "category": "variability",
+     "value": 58,
+     "value_text": "58.0 mg/dL",
+     "unit": "mg/dL",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Standard Deviation (SD): 58.0 mg/dL",
+     "note": null
+    },
+    {
+     "metric_key": "automated_mode",
+     "category": "usage",
+     "value": 65,
+     "value_text": "65%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Automated Mode Wear Time: 65%%",
+     "note": "Printed with a duplicated percent sign in the source PDF; value read as a percentage."
+    },
+    {
+     "metric_key": "setting_target_glucose",
+     "category": "device_setting",
+     "value": 110,
+     "value_text": "110 mg/dL",
+     "unit": "mg/dL",
+     "status": "extracted",
+     "source_page": 8,
+     "source_label": "Target Glucose: 110 mg/dL",
+     "note": null
+    },
+    {
+     "metric_key": "setting_ic_ratio",
+     "category": "device_setting",
+     "value": 10,
+     "value_text": "1 U : 10 g",
+     "unit": "g/U",
+     "status": "extracted",
+     "source_page": 8,
+     "source_label": "IC Ratio: 1 U : 10 g",
+     "note": null
+    },
+    {
+     "metric_key": "setting_max_basal",
+     "category": "device_setting",
+     "value": 5,
+     "value_text": "5.0 U/hr",
+     "unit": "U/hr",
+     "status": "extracted",
+     "source_page": 8,
+     "source_label": "Max Basal Rate: 5.0 U/h",
+     "note": null
+    },
+    {
+     "metric_key": "tbr_total",
+     "category": "range",
+     "value": 21,
+     "value_text": "21%",
+     "unit": "%",
+     "status": "calculated",
+     "source_page": 1,
+     "source_label": "Low + Very low",
+     "note": "Calculated by Adeed: 11% + 10%."
+    },
+    {
+     "metric_key": "tar_total",
+     "category": "range",
+     "value": 34,
+     "value_text": "34%",
+     "unit": "%",
+     "status": "calculated",
+     "source_page": 1,
+     "source_label": "High + Very high",
+     "note": "Calculated by Adeed: 22% + 12%."
+    },
+    {
+     "metric_key": "cgm_active",
+     "category": "usage",
+     "value": null,
+     "value_text": null,
+     "unit": "%",
+     "status": "unavailable",
+     "source_page": null,
+     "source_label": null,
+     "note": "Not found in this report."
+    }
+   ]
+  },
+  {
+   "id": "00000000-0000-4000-8000-000000000002",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "title": null,
+   "file_path": "11111111-aaaa-4aaa-8aaa-000000000001/00000000-0000-4000-8000-000000000002.pdf",
+   "file_name": "Demo — demo_history_2026-07.pdf",
+   "file_size": 0,
+   "status": "processed",
+   "error_code": null,
+   "error_message": null,
+   "report_kind": "cgm_agp",
+   "source_system": "Omnipod Discover",
+   "device": "Omnipod 5 & Dexcom G7",
+   "period_start": "2026-07-15",
+   "period_end": "2026-07-28",
+   "period_days": 14,
+   "generated_on": "2026-07-28",
+   "name_on_report": "Fatima Al-Qahtani",
+   "page_count": 8,
+   "quality": {
+    "score": "fair",
+    "checks": [
+     {
+      "key": "ranges_sum",
+      "level": "pass",
+      "params": {
+       "total": 100
+      }
+     },
+     {
+      "key": "gmi_consistency",
+      "level": "pass",
+      "params": {
+       "reported": 7.4,
+       "expected": 7.4
+      }
+     },
+     {
+      "key": "cv_consistency",
+      "level": "pass",
+      "params": {
+       "reported": 36,
+       "expected": 35.9
+      }
+     },
+     {
+      "key": "cgm_active_missing",
+      "level": "warn",
+      "params": {
+       "automated_mode": 65
+      }
+     },
+     {
+      "key": "period_length",
+      "level": "pass",
+      "params": {
+       "days": 14
+      }
+     }
+    ],
+    "target_range": {
+     "low": 70,
+     "high": 180,
+     "unit": "mg/dL"
+    }
+   },
+   "is_demo": true,
+   "created_at": "2026-10-29T12:06:33.812Z",
+   "processed_at": "2026-10-29T12:06:33.812Z",
+   "metrics": [
+    {
+     "metric_key": "tar_level2",
+     "category": "range",
+     "value": 13,
+     "value_text": "13.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Very High … 13.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tar_level1",
+     "category": "range",
+     "value": 23,
+     "value_text": "23.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "High … 23.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tir",
+     "category": "range",
+     "value": 44,
+     "value_text": "44.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Target … 44.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tbr_level1",
+     "category": "range",
+     "value": 11,
+     "value_text": "11.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Low … 11.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tbr_level2",
+     "category": "range",
+     "value": 9,
+     "value_text": "9.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Very Low … 9.0%",
+     "note": null
+    },
+    {
+     "metric_key": "mean_glucose",
+     "category": "glycemic",
+     "value": 170,
+     "value_text": "170 mg/dL",
+     "unit": "mg/dL",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Average Glucose: 170 mg/dL",
+     "note": null
+    },
+    {
+     "metric_key": "gmi",
+     "category": "glycemic",
+     "value": 7.4,
+     "value_text": "7.4%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "GMI: 7.4%",
+     "note": null
+    },
+    {
+     "metric_key": "cv",
+     "category": "variability",
+     "value": 36,
+     "value_text": "36.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Variability (CV): 36.0%",
+     "note": null
+    },
+    {
+     "metric_key": "sd",
+     "category": "variability",
+     "value": 61,
+     "value_text": "61.0 mg/dL",
+     "unit": "mg/dL",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Standard Deviation (SD): 61.0 mg/dL",
+     "note": null
+    },
+    {
+     "metric_key": "automated_mode",
+     "category": "usage",
+     "value": 65,
+     "value_text": "65%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Automated Mode Wear Time: 65%%",
+     "note": "Printed with a duplicated percent sign in the source PDF; value read as a percentage."
+    },
+    {
+     "metric_key": "setting_target_glucose",
+     "category": "device_setting",
+     "value": 110,
+     "value_text": "110 mg/dL",
+     "unit": "mg/dL",
+     "status": "extracted",
+     "source_page": 8,
+     "source_label": "Target Glucose: 110 mg/dL",
+     "note": null
+    },
+    {
+     "metric_key": "setting_ic_ratio",
+     "category": "device_setting",
+     "value": 10,
+     "value_text": "1 U : 10 g",
+     "unit": "g/U",
+     "status": "extracted",
+     "source_page": 8,
+     "source_label": "IC Ratio: 1 U : 10 g",
+     "note": null
+    },
+    {
+     "metric_key": "setting_max_basal",
+     "category": "device_setting",
+     "value": 5,
+     "value_text": "5.0 U/hr",
+     "unit": "U/hr",
+     "status": "extracted",
+     "source_page": 8,
+     "source_label": "Max Basal Rate: 5.0 U/h",
+     "note": null
+    },
+    {
+     "metric_key": "tbr_total",
+     "category": "range",
+     "value": 20,
+     "value_text": "20%",
+     "unit": "%",
+     "status": "calculated",
+     "source_page": 1,
+     "source_label": "Low + Very low",
+     "note": "Calculated by Adeed: 11% + 9%."
+    },
+    {
+     "metric_key": "tar_total",
+     "category": "range",
+     "value": 36,
+     "value_text": "36%",
+     "unit": "%",
+     "status": "calculated",
+     "source_page": 1,
+     "source_label": "High + Very high",
+     "note": "Calculated by Adeed: 23% + 13%."
+    },
+    {
+     "metric_key": "cgm_active",
+     "category": "usage",
+     "value": null,
+     "value_text": null,
+     "unit": "%",
+     "status": "unavailable",
+     "source_page": null,
+     "source_label": null,
+     "note": "Not found in this report."
+    }
+   ]
+  },
+  {
+   "id": "00000000-0000-4000-8000-000000000001",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "title": null,
+   "file_path": "11111111-aaaa-4aaa-8aaa-000000000001/00000000-0000-4000-8000-000000000001.pdf",
+   "file_name": "Demo — demo_history_2026-06.pdf",
+   "file_size": 0,
+   "status": "processed",
+   "error_code": null,
+   "error_message": null,
+   "report_kind": "cgm_agp",
+   "source_system": "Omnipod Discover",
+   "device": "Omnipod 5 & Dexcom G7",
+   "period_start": "2026-06-01",
+   "period_end": "2026-06-30",
+   "period_days": 30,
+   "generated_on": "2026-06-30",
+   "name_on_report": "Fatima Al-Qahtani",
+   "page_count": 8,
+   "quality": {
+    "score": "fair",
+    "checks": [
+     {
+      "key": "ranges_sum",
+      "level": "pass",
+      "params": {
+       "total": 100
+      }
+     },
+     {
+      "key": "gmi_consistency",
+      "level": "pass",
+      "params": {
+       "reported": 7.5,
+       "expected": 7.5
+      }
+     },
+     {
+      "key": "cv_consistency",
+      "level": "pass",
+      "params": {
+       "reported": 37,
+       "expected": 37.1
+      }
+     },
+     {
+      "key": "cgm_active_missing",
+      "level": "warn",
+      "params": {
+       "automated_mode": 65
+      }
+     },
+     {
+      "key": "period_length",
+      "level": "pass",
+      "params": {
+       "days": 30
+      }
+     }
+    ],
+    "target_range": {
+     "low": 70,
+     "high": 180,
+     "unit": "mg/dL"
+    }
+   },
+   "is_demo": true,
+   "created_at": "2026-10-29T12:06:33.793Z",
+   "processed_at": "2026-10-29T12:06:33.793Z",
+   "metrics": [
+    {
+     "metric_key": "tar_level2",
+     "category": "range",
+     "value": 15,
+     "value_text": "15.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Very High … 15.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tar_level1",
+     "category": "range",
+     "value": 24,
+     "value_text": "24.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "High … 24.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tir",
+     "category": "range",
+     "value": 41,
+     "value_text": "41.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Target … 41.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tbr_level1",
+     "category": "range",
+     "value": 11,
+     "value_text": "11.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Low … 11.0%",
+     "note": null
+    },
+    {
+     "metric_key": "tbr_level2",
+     "category": "range",
+     "value": 9,
+     "value_text": "9.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Very Low … 9.0%",
+     "note": null
+    },
+    {
+     "metric_key": "mean_glucose",
+     "category": "glycemic",
+     "value": 175,
+     "value_text": "175 mg/dL",
+     "unit": "mg/dL",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Average Glucose: 175 mg/dL",
+     "note": null
+    },
+    {
+     "metric_key": "gmi",
+     "category": "glycemic",
+     "value": 7.5,
+     "value_text": "7.5%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "GMI: 7.5%",
+     "note": null
+    },
+    {
+     "metric_key": "cv",
+     "category": "variability",
+     "value": 37,
+     "value_text": "37.0%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Variability (CV): 37.0%",
+     "note": null
+    },
+    {
+     "metric_key": "sd",
+     "category": "variability",
+     "value": 65,
+     "value_text": "65.0 mg/dL",
+     "unit": "mg/dL",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Standard Deviation (SD): 65.0 mg/dL",
+     "note": null
+    },
+    {
+     "metric_key": "automated_mode",
+     "category": "usage",
+     "value": 65,
+     "value_text": "65%",
+     "unit": "%",
+     "status": "extracted",
+     "source_page": 1,
+     "source_label": "Automated Mode Wear Time: 65%%",
+     "note": "Printed with a duplicated percent sign in the source PDF; value read as a percentage."
+    },
+    {
+     "metric_key": "setting_target_glucose",
+     "category": "device_setting",
+     "value": 110,
+     "value_text": "110 mg/dL",
+     "unit": "mg/dL",
+     "status": "extracted",
+     "source_page": 8,
+     "source_label": "Target Glucose: 110 mg/dL",
+     "note": null
+    },
+    {
+     "metric_key": "setting_ic_ratio",
+     "category": "device_setting",
+     "value": 10,
+     "value_text": "1 U : 10 g",
+     "unit": "g/U",
+     "status": "extracted",
+     "source_page": 8,
+     "source_label": "IC Ratio: 1 U : 10 g",
+     "note": null
+    },
+    {
+     "metric_key": "setting_max_basal",
+     "category": "device_setting",
+     "value": 5,
+     "value_text": "5.0 U/hr",
+     "unit": "U/hr",
+     "status": "extracted",
+     "source_page": 8,
+     "source_label": "Max Basal Rate: 5.0 U/h",
+     "note": null
+    },
+    {
+     "metric_key": "tbr_total",
+     "category": "range",
+     "value": 20,
+     "value_text": "20%",
+     "unit": "%",
+     "status": "calculated",
+     "source_page": 1,
+     "source_label": "Low + Very low",
+     "note": "Calculated by Adeed: 11% + 9%."
+    },
+    {
+     "metric_key": "tar_total",
+     "category": "range",
+     "value": 39,
+     "value_text": "39%",
+     "unit": "%",
+     "status": "calculated",
+     "source_page": 1,
+     "source_label": "High + Very high",
+     "note": "Calculated by Adeed: 24% + 15%."
+    },
+    {
+     "metric_key": "cgm_active",
+     "category": "usage",
+     "value": null,
+     "value_text": null,
+     "unit": "%",
+     "status": "unavailable",
+     "source_page": null,
+     "source_label": null,
+     "note": "Not found in this report."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "id": "lab-1",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "test_key": "hba1c",
+   "value": 7.4,
+   "unit": "%",
+   "measured_on": "2026-08-02",
+   "source": "demo",
+   "report_id": null,
+   "note": "Synthetic demo value",
+   "is_demo": true,
+   "created_at": "2026-10-29T12:06:33.838Z"
+  }
+ ],
+ "questions": [
+  {
+   "id": "q-01-0",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000001",
+   "rule_key": "hypo_time",
+   "question": "تقريري يُظهر أن السكر كان أقل من 70 لمدة 20% من الوقت، منها 9% أقل من 54. ما الأسباب المحتملة لهذه الانخفاضات، وهل نحتاج لمراجعة خطتي العلاجية معًا؟",
+   "rationale": "الإجماع الدولي يوصي لأغلب البالغين بأن يكون الوقت تحت 70 أقل من 4%، وتحت 54 أقل من 1%. الانخفاضات المتكررة تستحق النقاش أولًا لأنها قد تكون خطرة.",
+   "evidence": [
+    {
+     "metric_key": "tbr_total",
+     "value": 20,
+     "unit": "%",
+     "status": "calculated",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 1,
+     "role": "current"
+    },
+    {
+     "metric_key": "tbr_level2",
+     "value": 9,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 1,
+     "role": "current"
+    },
+    {
+     "metric_key": "tbr_level1",
+     "value": 11,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 0,
+   "created_at": "2026-10-29T12:06:33.839Z"
+  },
+  {
+   "id": "q-01-1",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000001",
+   "rule_key": "hypo_plan",
+   "question": "ما خطتي الدقيقة لعلاج الهبوط، وهل أحتاج جلوكاجون للطوارئ، ومن يجب أن يعرف كيف يستخدمه؟",
+   "rationale": "مع وجود وقت ملحوظ تحت 54، من المهم أن تكون خطة التعامل مع الهبوط واضحة ومكتوبة لك ولمن حولك.",
+   "evidence": [
+    {
+     "metric_key": "tbr_total",
+     "value": 20,
+     "unit": "%",
+     "status": "calculated",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 1,
+   "created_at": "2026-10-29T12:06:33.839Z"
+  },
+  {
+   "id": "q-01-2",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000001",
+   "rule_key": "tir_low",
+   "question": "الوقت ضمن النطاق عندي 41%. ما الهدف المناسب لي، وما أول تغيير عملي نركز عليه لرفعه؟",
+   "rationale": "الهدف العام لأغلب البالغين أكثر من 70% (حوالي 17 ساعة يوميًا)، لكن الطبيب قد يحدد هدفًا مختلفًا حسب حالتك.",
+   "evidence": [
+    {
+     "metric_key": "tir",
+     "value": 41,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 2,
+   "created_at": "2026-10-29T12:06:33.839Z"
+  },
+  {
+   "id": "q-01-3",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000001",
+   "rule_key": "hyper_time",
+   "question": "السكر كان أعلى من 180 لمدة 39% من الوقت (منها 15% فوق 250). في أي أوقات من اليوم يحدث الارتفاع غالبًا، وما الذي يمكن مراجعته؟",
+   "rationale": "الهدف العام أقل من 25% فوق 180 وأقل من 5% فوق 250. معرفة توقيت الارتفاعات (بعد الوجبات، الليل) تساعد الطبيب على تحديد السبب.",
+   "evidence": [
+    {
+     "metric_key": "tar_total",
+     "value": 39,
+     "unit": "%",
+     "status": "calculated",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 1,
+     "role": "current"
+    },
+    {
+     "metric_key": "tar_level2",
+     "value": 15,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 3,
+   "created_at": "2026-10-29T12:06:33.839Z"
+  },
+  {
+   "id": "q-01-4",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000001",
+   "rule_key": "variability",
+   "question": "معامل التذبذب في تقريري 37%. ما الذي قد يسبب تقلب السكر بهذا الشكل، وكيف نقلله بأمان؟",
+   "rationale": "التذبذب أعلى من 36% يرتبط بزيادة خطر الهبوط. ",
+   "evidence": [
+    {
+     "metric_key": "cv",
+     "value": 37,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 1,
+     "role": "current"
+    },
+    {
+     "metric_key": "sd",
+     "value": 65,
+     "unit": "mg/dL",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 4,
+   "created_at": "2026-10-29T12:06:33.839Z"
+  },
+  {
+   "id": "q-01-5",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000001",
+   "rule_key": "cgm_active_missing",
+   "question": "تقريري لا يذكر نسبة الوقت الذي كان فيه الحساس يعمل. كيف نتأكد أن البيانات كافية لاتخاذ قرارات؟",
+   "rationale": "يُوصى بعمل الحساس 70% على الأقل من الوقت خلال 14 يومًا لتكون الأرقام ممثِّلة.",
+   "evidence": [
+    {
+     "metric_key": "automated_mode",
+     "value": 65,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "data_gap",
+   "is_uncertain": true,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 5,
+   "created_at": "2026-10-29T12:06:33.839Z"
+  },
+  {
+   "id": "q-01-6",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000001",
+   "rule_key": "settings_review",
+   "question": "هل إعدادات المضخة الحالية (مثل السكر المستهدف ونسبة الكربوهيدرات) ما زالت مناسبة لنتائجي؟ لن أغيّر شيئًا قبل أن نتفق.",
+   "rationale": "التقرير يتضمن إعدادات الجهاز. عضيد لا يقترح تغييرها — هذا قرار طبيبك.",
+   "evidence": [
+    {
+     "metric_key": "setting_target_glucose",
+     "value": 110,
+     "unit": "mg/dL",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 8,
+     "role": "current"
+    },
+    {
+     "metric_key": "setting_ic_ratio",
+     "value": 10,
+     "unit": "g/U",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000001",
+     "source_page": 8,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 6,
+   "created_at": "2026-10-29T12:06:33.839Z"
+  },
+  {
+   "id": "q-02-0",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000002",
+   "rule_key": "hypo_time",
+   "question": "تقريري يُظهر أن السكر كان أقل من 70 لمدة 20% من الوقت، منها 9% أقل من 54. ما الأسباب المحتملة لهذه الانخفاضات، وهل نحتاج لمراجعة خطتي العلاجية معًا؟",
+   "rationale": "الإجماع الدولي يوصي لأغلب البالغين بأن يكون الوقت تحت 70 أقل من 4%، وتحت 54 أقل من 1%. الانخفاضات المتكررة تستحق النقاش أولًا لأنها قد تكون خطرة.",
+   "evidence": [
+    {
+     "metric_key": "tbr_total",
+     "value": 20,
+     "unit": "%",
+     "status": "calculated",
+     "report_id": "00000000-0000-4000-8000-000000000002",
+     "source_page": 1,
+     "role": "current"
+    },
+    {
+     "metric_key": "tbr_level2",
+     "value": 9,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000002",
+     "source_page": 1,
+     "role": "current"
+    },
+    {
+     "metric_key": "tbr_level1",
+     "value": 11,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000002",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 0,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-02-1",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000002",
+   "rule_key": "hypo_plan",
+   "question": "ما خطتي الدقيقة لعلاج الهبوط، وهل أحتاج جلوكاجون للطوارئ، ومن يجب أن يعرف كيف يستخدمه؟",
+   "rationale": "مع وجود وقت ملحوظ تحت 54، من المهم أن تكون خطة التعامل مع الهبوط واضحة ومكتوبة لك ولمن حولك.",
+   "evidence": [
+    {
+     "metric_key": "tbr_total",
+     "value": 20,
+     "unit": "%",
+     "status": "calculated",
+     "report_id": "00000000-0000-4000-8000-000000000002",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 1,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-02-2",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000002",
+   "rule_key": "tir_low",
+   "question": "الوقت ضمن النطاق عندي 44%. ما الهدف المناسب لي، وما أول تغيير عملي نركز عليه لرفعه؟",
+   "rationale": "الهدف العام لأغلب البالغين أكثر من 70% (حوالي 17 ساعة يوميًا)، لكن الطبيب قد يحدد هدفًا مختلفًا حسب حالتك.",
+   "evidence": [
+    {
+     "metric_key": "tir",
+     "value": 44,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000002",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 2,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-02-3",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000002",
+   "rule_key": "hyper_time",
+   "question": "السكر كان أعلى من 180 لمدة 36% من الوقت (منها 13% فوق 250). في أي أوقات من اليوم يحدث الارتفاع غالبًا، وما الذي يمكن مراجعته؟",
+   "rationale": "الهدف العام أقل من 25% فوق 180 وأقل من 5% فوق 250. معرفة توقيت الارتفاعات (بعد الوجبات، الليل) تساعد الطبيب على تحديد السبب.",
+   "evidence": [
+    {
+     "metric_key": "tar_total",
+     "value": 36,
+     "unit": "%",
+     "status": "calculated",
+     "report_id": "00000000-0000-4000-8000-000000000002",
+     "source_page": 1,
+     "role": "current"
+    },
+    {
+     "metric_key": "tar_level2",
+     "value": 13,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000002",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 3,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-02-4",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000002",
+   "rule_key": "cgm_active_missing",
+   "question": "تقريري لا يذكر نسبة الوقت الذي كان فيه الحساس يعمل. كيف نتأكد أن البيانات كافية لاتخاذ قرارات؟",
+   "rationale": "يُوصى بعمل الحساس 70% على الأقل من الوقت خلال 14 يومًا لتكون الأرقام ممثِّلة.",
+   "evidence": [
+    {
+     "metric_key": "automated_mode",
+     "value": 65,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000002",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "data_gap",
+   "is_uncertain": true,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 4,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-02-5",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000002",
+   "rule_key": "settings_review",
+   "question": "هل إعدادات المضخة الحالية (مثل السكر المستهدف ونسبة الكربوهيدرات) ما زالت مناسبة لنتائجي؟ لن أغيّر شيئًا قبل أن نتفق.",
+   "rationale": "التقرير يتضمن إعدادات الجهاز. عضيد لا يقترح تغييرها — هذا قرار طبيبك.",
+   "evidence": [
+    {
+     "metric_key": "setting_target_glucose",
+     "value": 110,
+     "unit": "mg/dL",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000002",
+     "source_page": 8,
+     "role": "current"
+    },
+    {
+     "metric_key": "setting_ic_ratio",
+     "value": 10,
+     "unit": "g/U",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000002",
+     "source_page": 8,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 5,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-03-0",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000003",
+   "rule_key": "hypo_time",
+   "question": "تقريري يُظهر أن السكر كان أقل من 70 لمدة 21% من الوقت، منها 10% أقل من 54. ما الأسباب المحتملة لهذه الانخفاضات، وهل نحتاج لمراجعة خطتي العلاجية معًا؟",
+   "rationale": "الإجماع الدولي يوصي لأغلب البالغين بأن يكون الوقت تحت 70 أقل من 4%، وتحت 54 أقل من 1%. الانخفاضات المتكررة تستحق النقاش أولًا لأنها قد تكون خطرة.",
+   "evidence": [
+    {
+     "metric_key": "tbr_total",
+     "value": 21,
+     "unit": "%",
+     "status": "calculated",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 1,
+     "role": "current"
+    },
+    {
+     "metric_key": "tbr_level2",
+     "value": 10,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 1,
+     "role": "current"
+    },
+    {
+     "metric_key": "tbr_level1",
+     "value": 11,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": true,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 0,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-03-1",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000003",
+   "rule_key": "hypo_plan",
+   "question": "ما خطتي الدقيقة لعلاج الهبوط، وهل أحتاج جلوكاجون للطوارئ، ومن يجب أن يعرف كيف يستخدمه؟",
+   "rationale": "مع وجود وقت ملحوظ تحت 54، من المهم أن تكون خطة التعامل مع الهبوط واضحة ومكتوبة لك ولمن حولك.",
+   "evidence": [
+    {
+     "metric_key": "tbr_total",
+     "value": 21,
+     "unit": "%",
+     "status": "calculated",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": true,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 1,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-03-2",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000003",
+   "rule_key": "tir_low",
+   "question": "الوقت ضمن النطاق عندي 45%. ما الهدف المناسب لي، وما أول تغيير عملي نركز عليه لرفعه؟",
+   "rationale": "الهدف العام لأغلب البالغين أكثر من 70% (حوالي 17 ساعة يوميًا)، لكن الطبيب قد يحدد هدفًا مختلفًا حسب حالتك.",
+   "evidence": [
+    {
+     "metric_key": "tir",
+     "value": 45,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 2,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-03-3",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000003",
+   "rule_key": "hyper_time",
+   "question": "السكر كان أعلى من 180 لمدة 34% من الوقت (منها 12% فوق 250). في أي أوقات من اليوم يحدث الارتفاع غالبًا، وما الذي يمكن مراجعته؟",
+   "rationale": "الهدف العام أقل من 25% فوق 180 وأقل من 5% فوق 250. معرفة توقيت الارتفاعات (بعد الوجبات، الليل) تساعد الطبيب على تحديد السبب.",
+   "evidence": [
+    {
+     "metric_key": "tar_total",
+     "value": 34,
+     "unit": "%",
+     "status": "calculated",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 1,
+     "role": "current"
+    },
+    {
+     "metric_key": "tar_level2",
+     "value": 12,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 3,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-03-4",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000003",
+   "rule_key": "variability",
+   "question": "معامل التذبذب في تقريري 50% (مع ملاحظة أن الرقم غير متسق مع باقي التقرير). ما الذي قد يسبب تقلب السكر بهذا الشكل، وكيف نقلله بأمان؟",
+   "rationale": "التذبذب أعلى من 36% يرتبط بزيادة خطر الهبوط. وسمناه غير مؤكد لأن SD ÷ المتوسط يعطي قيمة مختلفة.",
+   "evidence": [
+    {
+     "metric_key": "cv",
+     "value": 50,
+     "unit": "%",
+     "status": "uncertain",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 1,
+     "role": "current"
+    },
+    {
+     "metric_key": "sd",
+     "value": 58,
+     "unit": "mg/dL",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": true,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 4,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-03-5",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000003",
+   "rule_key": "cgm_active_missing",
+   "question": "تقريري لا يذكر نسبة الوقت الذي كان فيه الحساس يعمل. كيف نتأكد أن البيانات كافية لاتخاذ قرارات؟",
+   "rationale": "يُوصى بعمل الحساس 70% على الأقل من الوقت خلال 14 يومًا لتكون الأرقام ممثِّلة.",
+   "evidence": [
+    {
+     "metric_key": "automated_mode",
+     "value": 65,
+     "unit": "%",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 1,
+     "role": "current"
+    }
+   ],
+   "basis": "data_gap",
+   "is_uncertain": true,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 5,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  },
+  {
+   "id": "q-03-6",
+   "user_id": "11111111-aaaa-4aaa-8aaa-000000000001",
+   "report_id": "00000000-0000-4000-8000-000000000003",
+   "rule_key": "settings_review",
+   "question": "هل إعدادات المضخة الحالية (مثل السكر المستهدف ونسبة الكربوهيدرات) ما زالت مناسبة لنتائجي؟ لن أغيّر شيئًا قبل أن نتفق.",
+   "rationale": "التقرير يتضمن إعدادات الجهاز. عضيد لا يقترح تغييرها — هذا قرار طبيبك.",
+   "evidence": [
+    {
+     "metric_key": "setting_target_glucose",
+     "value": 110,
+     "unit": "mg/dL",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 8,
+     "role": "current"
+    },
+    {
+     "metric_key": "setting_ic_ratio",
+     "value": 10,
+     "unit": "g/U",
+     "status": "extracted",
+     "report_id": "00000000-0000-4000-8000-000000000003",
+     "source_page": 8,
+     "role": "current"
+    }
+   ],
+   "basis": "finding",
+   "is_uncertain": false,
+   "is_saved": false,
+   "is_edited": false,
+   "generated_by": "rules",
+   "position": 6,
+   "created_at": "2026-10-29T12:06:33.840Z"
+  }
+ ]
+}

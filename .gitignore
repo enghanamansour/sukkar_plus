@@ -1,0 +1,9 @@
+node_modules
+dist
+*.local
+
+# local env (keep secrets out of git)
+.env
+.env.local
+.env.*.local
+supabase/.temp
